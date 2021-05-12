@@ -229,3 +229,59 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+
+.MapNav {
+    margin: 20px 20px 20px 20px;
+    background-color: #ff9999;
+    border: 2px solid transparent;
+    border-color: #ff6666;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.MapNav img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    display: block;
+    width: 50%;
+}
+
+.Feat1{
+    flex-grow: 1;
+    margin: 20px 20px 20px 20px;
+    background-color: #ff9999;
+    border: 2px solid transparent;
+    border-color: #ff6666;
+}
+
+.Feat2{
+    flex-grow: 1;
+    margin: 20px 20px 20px 20px;
+    background-color: #ff9999;
+    border: 2px solid transparent;
+    border-color: #ff6666;
+}
+
+.Feat3{
+    flex-grow: 1;
+    margin: 20px 20px 20px 20px;
+    background-color: #ff9999;
+    border: 2px solid transparent;
+    border-color: #ff6666;
+}
+
+.Features {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.FeatureContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
